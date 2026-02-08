@@ -1,0 +1,49 @@
+.certificate-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.certificate-card {
+    background-color: var(--container-color);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.certificate-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  display: block;
+}
+
+.certificate-img {
+    transition: transform 0.3s ease;
+}
+
+.certificate-card:hover .certificate-img {
+    transform: scale(1.2);
+}
+
+.certificate-title {
+    font-size: var(--large-font-size);
+    margin-block: 1.5rem 0.5rem;
+}
+
+.certificate-description {
+    font-size: var(--small-font-size);
+    line-height: 1.5;
+}
+
+.certificate-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background-color: transparent;
+  padding: 0;
+}
+
+
+.certificate-skills .year {
+    opacity: 0.7;
+    font-size: 0.85rem;
+}

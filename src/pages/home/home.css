@@ -1,0 +1,171 @@
+.home-container {
+    grid-template-columns: 7.25fr 4.75fr;
+    align-items: center;
+    gap: clamp(2rem, -22.6531rem + 32.6531vw, 10rem);
+    /* gap: clamp(1.5rem, 3vw, 4rem); */
+    gap: 2.5rem;
+    padding: 2.5rem;
+    min-height: 100vh;
+}
+
+.home-img {
+    height: calc(100vh - 10rem);
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    z-index: 10;
+    order: 2;
+}
+
+.home-content {
+    padding-left: 3rem;
+    order: 1;
+}
+
+.home-title {
+    font-size: var(--h1-font-size);
+    padding-left: 4.25rem;
+    position: relative;
+}
+.home-title span {
+    color: var(--first-color);
+}
+
+.home-title::before {
+    content: '';
+    position: absolute;
+    top: 22%;
+    left: 0;
+    width: 40px;
+    height: 4px;
+    border-radius: 0.5rem;
+    background-color: var(--first-color);
+}
+
+.home-description {
+    line-height: 1.75;
+    max-width: 600px;
+    padding-left: 4.25rem;
+    margin-block: 1.5rem 2.5rem;
+}
+
+.color-block {
+    position: fixed;
+    width: 30%;
+    height: 150%;
+    background-color: var(--first-color);
+    transform: rotate(-16deg);
+    top: -12%;
+    right: -12%;
+    left: auto;
+}
+
+.button {
+    margin-left: 4.25rem;
+}
+
+/* ================= HOME RESPONSIVE ================= */
+
+/* Medium screens (laptop/tablet) */
+@media screen and (max-width: 1200px) {
+  .home-container {
+    grid-template-columns: 1fr; /* stack content */
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .home-img {
+    max-width: 100%;
+    height: auto;
+    order: 1;
+    border-radius: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .home-content {
+    padding-left: 0;
+    order: 2;
+    text-align: center;
+  }
+
+  .home-title {
+    padding-left: 0;
+  }
+
+  .home-title::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .home-description {
+    padding-left: 0;
+    margin-block: 1rem 2rem;
+  }
+
+  .button {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .color-block {
+    width: 50%;
+    height: 120%;
+    top: -10%;
+    right: -20%;
+  }
+}
+
+/* Small screens (phones) */
+@media screen and (max-width: 768px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  .home-description {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 0.65rem 1.5rem;
+    font-size: 0.875rem;
+  }
+
+  .color-block {
+    width: 60%;
+    height: 120%;
+    top: -15%;
+    right: -25%;
+  }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 540px) {
+  .home-title {
+    font-size: 2.2rem;
+  }
+
+  .home-description {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.25rem;
+  }
+}
+
+/* Ultra small screens */
+@media screen and (max-width: 420px) {
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-description {
+    font-size: 0.875rem;
+  }
+
+  .button {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+  }
+}

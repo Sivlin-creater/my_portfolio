@@ -1,0 +1,15 @@
+import React from 'react'
+import Navbar from './Navbar'
+import { Outlet } from 'react-router'
+
+//rafce
+const AppLayout = () => {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  )
+}
+
+export default AppLayout
