@@ -57,11 +57,12 @@ const PortfolioCard = ({ project }) => {
       <h3 className="portfolio-title">{project.title}</h3>
       <p className="portfolio-description">{project.description}</p>
 
-      <div className='portfolio-skills'>
+      <br />
+      {/* <div className='portfolio-skills'>
         {project.skills.map((skill, index) => (
           <img src={skill} className='portfolio-skill' key={index} />
         ))}
-      </div>
+      </div> */}
 
       {project.link && (
         <a href={project.link} className='portfolio-link' target="_blank">

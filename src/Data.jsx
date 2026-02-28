@@ -58,6 +58,8 @@ import projectImg22 from './assets/restaurant_lin/image4.jpg';
 import projectImg23 from './assets/restaurant_lin/image5.jpg';
 import projectImg24 from './assets/restaurant_lin/image6.jpg';
 
+import projectIMg0 from './assets/ims.jpeg';
+import projectImg0 from './assets/budget.jpg';
 
 export const links = [
   {
@@ -590,7 +592,7 @@ export const portfolio = [
     images: [projectImg5, projectImg6, projectImg7, projectImg8, projectImg9, projectImg10, projectImg11],
     title: 'Bank ATM Machine',
     description:
-      'A Desktop Bank Management System built in Java Swing with MySQL database. This project allows users to create accounts, login using card number and PIN, and perform transactions. I learned to create this system following the “CODE FOR INTERVIEW” YouTube tutorial, but this is my own version adapted for learning and practice.',
+      'A Desktop Bank Management System built in Java Swing with MySQL database.ss I learned to create this system following the “CODE FOR INTERVIEW” YouTube tutorial, but this is my own version adapted for learning and practice.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: 'https://github.com/Sivlin-creater/bank_management_system',
   },
@@ -614,6 +616,25 @@ export const portfolio = [
     skills: [skillsImg4, skillsImg5],
     link: 'https://github.com/Sivlin-creater/Web_App_Mobile_App_LiNSi_Restaurant',
   },
+
+  {
+    id: 6,
+    images: [projectIMg0],
+    title: 'Inventory Management System',
+    description:
+      'A full-stack Inventory Management System built using Spring Boot (Backend) and Angular (Frontend). The system provides secure inventory tracking, product & supplier management, authentication using JWT, and analytics dashboards.',
+    skills: [skillsImg4, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/IMS-Inventory-Management-System',
+  },
   
+  {
+    id: 7,
+    images: [projectImg0],
+    title: 'Budget Management System',
+    description:
+      'A full-stack Budget Management System built using Blade PHP',
+    skills: [skillsImg4, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/budget-ai-app',
+  },
 ];
 

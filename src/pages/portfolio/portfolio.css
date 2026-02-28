@@ -1,12 +1,15 @@
 .portfolio-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    display: grid;
+    align-items: start;
 }
 
 .portfolio-card {
     background-color: var(--container-color);
     padding: 1.5rem;
     border-radius: 1.5rem;
+    height: auto;
 }
 
 .portfolio-img-wrapper {
@@ -18,6 +21,8 @@
 
 .portfolio-img {
     transition: transform 0.3s ease;
+    height: auto;
+    display: block;
 }
 
 .portfolio-card:hover .portfolio-img {
