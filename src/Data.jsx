@@ -1,17 +1,47 @@
 // ========== LINKS ==========
 import { FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen } from 'react-icons/fa';
 import { RiBriefcase4Fill, RiGraduationCapFill } from 'react-icons/ri';
-import skillsImg1 from './assets/logos/html_logo.svg';
+import skillsImg1 from './assets/logos/html-logo.svg';
 import skillsImg2 from './assets/logos/css-logo.svg';
 import skillsImg3 from './assets/logos/javascript_logo.svg';
 import skillsImg4 from './assets/logos/react-logo.svg';
-import skillsImg5 from './assets/logos/tailwind-css-logo.svg';
+import skillsImg5 from './assets/logos/tailwindcss_logo.svg';
+import skillsImg6 from './assets/logos/vue_logo.svg';
+import skillsImg7 from './assets/logos/nextjs_logo.svg';
+import skillsImg8 from './assets/logos/figma_logo.svg';
+import skillsImg9 from './assets/logos/flutter_logo.svg';
 
-import skillsImg6 from './assets/logos/figma-logo.svg';
-import skillsImg7 from './assets/logos/ps_logo.svg';
-import skillsImg8 from './assets/logos/java_logo.svg';
-import skillsImg9 from './assets/logos/python_logo.svg';
-import skillsImg10 from './assets/logos/csharp_logo.svg';
+import skillsImg10 from './assets/logos/php_logo.svg';
+import skillsImg11 from './assets/logos/laravel_logo.svg';
+import skillsImg12 from './assets/logos/nodejs_logo.svg';
+import skillsImg13 from './assets/logos/python_logo.svg';
+import skillsImg14 from './assets/logos/java_logo.svg';
+import skillsImg15 from './assets/logos/csharp_logo.svg';
+import skillsImg16 from './assets/logos/mysql_logo.svg';
+import skillsImg17 from './assets/logos/postgresql_logo.svg';
+import skillsImg18 from './assets/logos/mongo_logo.svg';
+import skillsImg33 from './assets/logos/sql_logo.svg';
+
+import skillsImg19 from './assets/logos/ps_logo.svg';
+import skillsImg20 from './assets/logos/canva_logo.svg';
+import skillsImg21 from './assets/logos/figma_logo.svg';
+import skillsImg22 from './assets/logos/ai_logo.svg';
+
+import skillsImg23 from './assets/logos/vsstudiocode_logo.svg';
+import skillsImg24 from './assets/logos/github_logo.svg';
+import skillsImg25 from './assets/logos/postman_logo.svg';
+import skillsImg26 from './assets/logos/xampp_logo.svg';
+import skillsImg27 from './assets/logos/wamp_logo.svg';
+import skillsImg28 from './assets/logos/laragon_logo.svg';
+import skillsImg29 from './assets/logos/word_logo.svg';
+import skillsImg30 from './assets/logos/mexcel_logo.svg';
+import skillsImg31 from './assets/logos/googledrive_logo.svg';
+import skillsImg32 from './assets/logos/notion_logo.svg';
+
+import skillsImg34 from './assets/logos/chinese_logo.svg';
+import skillsImg35 from './assets/logos/computer_logo.svg';
+import skillsImg36 from './assets/logos/translator_logo.svg';
+import skillsImg37 from './assets/logos/volunteer_logo.svg';
 
 
 import certImg1 from './assets/ace_global.jpg';
@@ -182,89 +212,173 @@ export const skillfront = [
   },
   {
     id:3,
-    img: skillsImg10,
+    img: skillsImg3,
     title: 'JavaScript',
     level: 'Beginner',
   },
   {
     id:4,
-    img: skillsImg10,
+    img: skillsImg4,
     title: 'React',
     level: 'Beginner',
   },
   {
     id: 5,
-    img: skillsImg3,
+    img: skillsImg5,
     title: 'TailwindCSS',
+    level: 'Intermediate',
+  },
+  {
+    id: 6,
+    img: skillsImg6,
+    title: 'Vue.js',
+    level: 'Beginner',
+  },
+  {
+    id: 7,
+    img: skillsImg7,
+    title: 'Next.js',
+    level: 'Beginner',
+  },
+  {
+    id: 8,
+    img: skillsImg8,
+    title: 'Figma',
+    level: 'Intermediate',
+  },
+  {
+    id: 9,
+    img: skillsImg9,
+    title: 'Flutter',
     level: 'Intermediate',
   },
 ];
 export const skillback = [
   {
     id: 1,
-    img: skillsImg3,
-    title: 'Java',
+    img: skillsImg10,
+    title: 'PHP',
     level: 'Intermediate',
   },
   {
     id: 2,
-    img: skillsImg3,
-    title: 'Python',
-    level: 'Beginner',
+    img: skillsImg11,
+    title: 'Laravel',
+    level: 'Intermediate',
   },
   {
     id: 3,
-    img: skillsImg3,
-    title: 'C++',
+    img: skillsImg12,
+    title: 'Node.js',
     level: 'Intermediate',
   },
   {
     id: 4,
-    img: skillsImg3,
+    img: skillsImg13,
+    title: 'Python',
+    level: 'Beginner',
+  },
+  {
+    id: 5,
+    img: skillsImg14,
+    title: 'Java',
+    level: 'Intermediate',
+  },
+  {
+    id: 6,
+    img: skillsImg15,
     title: 'C#',
+    level: 'Intermediate',
+  },
+  {
+    id: 7,
+    img: skillsImg3,
+    title: 'JavaScript',
+    level: 'Intermediate',
+  },
+  {
+    id: 8,
+    img: skillsImg7,
+    title: 'Next.js',
+    level: 'Beginner',
+  },
+  {
+    id: 9,
+    img: skillsImg16,
+    title: 'MySQL',
+    level: 'Advanced',
+  },
+  {
+    id: 10,
+    img: skillsImg17,
+    title: 'PostgreSQL',
+    level: 'Intermediate',
+  },
+  {
+    id: 11,
+    img: skillsImg18,
+    title: 'MongoDB',
+    level: 'Intermediate',
+  },
+  {
+    id: 12,
+    img: skillsImg33,
+    title: 'Microsoft SQL',
     level: 'Intermediate',
   },
 ];
 export const skilldesign = [
   {
     id: 1,
-    img: skillsImg1,
+    img: skillsImg19,
     title: 'Photoshop',
     level: 'Intermediate',
   },
 
   {
     id: 2,
-    img: skillsImg2,
-    title: 'Figma',
+    img: skillsImg20,
+    title: 'Canva',
     level: 'Advanced',
   },
 
   {
     id: 3,
-    img: skillsImg3,
-    title: 'UX/UI',
+    img: skillsImg21,
+    title: 'Figma',
     level: 'Intermediate',
   },
 
   {
     id: 4,
-    img: skillsImg4,
+    img: skillsImg22,
     title: 'Adobe Illustrator',
-    level: 'Basic',
+    level: 'Beginner',
   },
 ];
 export const skillteach = [
   {
     id: 1,
-    img: skillsImg1,
+    img: skillsImg34,
     title: 'Chinese',
     level: 'Advanced',
   },
   {
     id: 2,
-    img: skillsImg2,
+    img: skillsImg35,
     title: 'Computer',
+    level: 'Advanced',
+  },
+  {
+    id: 3,
+    img: skillsImg36,
+    title: 'Translator/ Interpreter',
+    level: 'Intermediate',
+  },
+  {
+    id: 4,
+    img: skillsImg37,
+    title: 'Volunteers',
     level: 'Advanced',
   },
 ];
@@ -272,20 +386,62 @@ export const skillteach = [
 export const skillothers = [
   {
     id: 1,
-    img: skillsImg3,
-    title: 'JavaScript',
-    level: 'Intermediate',
+    img: skillsImg23,
+    title: 'Visual Studio Code',
+    level: 'Advanced',
   },
   {
     id: 2,
-    img: skillsImg4,
-    title: 'React',
-    level: 'Basic',
+    img: skillsImg24,
+    title: 'GitHub',
+    level: 'Intermediate',
   },
   {
     id: 3,
-    img: skillsImg5,
-    title: 'Tailwind',
+    img: skillsImg25,
+    title: 'Postman',
+    level: 'Intermediate',
+  },
+  {
+    id: 4,
+    img: skillsImg26,
+    title: 'XAMPP',
+    level: 'Advanced',
+  },
+  {
+    id: 5,
+    img: skillsImg27,
+    title: 'WAMP',
+    level: 'Advanced',
+  },
+  {
+    id: 6,
+    img: skillsImg28,
+    title: 'Laragon',
+    level: 'Intermediate',
+  },
+  {
+    id: 7,
+    img: skillsImg29,
+    title: 'Microsoft Word',
+    level: 'Advanced',
+  },
+  {
+    id: 8,
+    img: skillsImg30,
+    title: 'Microsoft Excel',
+    level: 'Intermediate',
+  },
+  {
+    id: 9,
+    img: skillsImg31,
+    title: 'Google Drive',
+    level: 'Advanced',
+  },
+  {
+    id: 10,
+    img: skillsImg32,
+    title: 'Notion',
     level: 'Intermediate',
   },
 ];
