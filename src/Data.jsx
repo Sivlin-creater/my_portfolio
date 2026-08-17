@@ -91,6 +91,19 @@ import projectImg24 from './assets/restaurant_lin/image6.jpg';
 import projectIMg0 from './assets/ims.jpeg';
 import projectImg0 from './assets/budget.jpg';
 
+import projectImg25 from './assets/weather_website/image1.png'
+import projectImg26 from './assets/weather_website/image2.png'
+import projectImg27 from './assets/scrollio_text/image1.png'
+import projectImg28 from './assets/portfolio_group/image1.png'
+import projectImg29 from './assets/portfolio_group/image2.png'
+import projectImg30 from './assets/portfolio_group/image3.png'
+import projectImg31 from './assets/portfolio_group/image4.png'
+import projectImg32 from './assets/portfolio_group/image5.png'
+import projectImg33 from './assets/portfolio_group/image6.png'
+import projectImg34 from './assets/portfolio_group/image7.png'
+import projectImg35 from './assets/todo_flutter/todo_app.jpg'
+
+
 export const links = [
   {
     name: 'Home',
@@ -791,6 +804,56 @@ export const portfolio = [
       'A full-stack Budget Management System built using Blade PHP',
     skills: [skillsImg4, skillsImg5],
     link: 'https://github.com/Sivlin-creater/budget-ai-app',
+  },
+
+  {
+    id: 8,
+    images: [projectImg25, projectImg26],
+    title: 'Personal Weather App',
+    description:
+      'A responsive weather web application designed for both desktop and mobile devices. It provides real-time weather information through a clean, user-friendly interface and supports Progressive Web App (PWA) features, allowing users to install and access the app offline.',
+    skills: [skillsImg4, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/weather_website',
+  },
+
+  {
+    id: 9,
+    images: [projectImg27],
+    title: 'Scrollio Website',
+    description:
+      'A responsive scrolling text web application that allows users to create and customize scrolling messages with multiple tools and display options. Built as a Progressive Web App (PWA), it can be installed and used offline on both desktop and mobile devices.',
+    skills: [skillsImg4, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/scrollio_website',
+  },
+
+  {
+    id: 10,
+    images: [projectImg28, projectImg29, projectImg30, projectImg31, projectImg32, projectImg33, projectImg34],
+    title: 'Portfolio Group Project',
+    description:
+      'A collaborative portfolio website developed as a group project to showcase team members, projects, skills, and professional information. The website features a responsive design optimized for both desktop and mobile devices, with a clean and modern interface for presenting the teams work.',
+    skills: [skillsImg4, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/portfolio_group_project',
+  },
+
+  {
+    id: 11,
+    images: [projectImg35],
+    title: 'Todo App',
+    description:
+      'A Flutter-based mobile Todo App that allows users to easily add, edit, delete, and manage their daily tasks through a simple and user-friendly interface.',
+    skills: [skillsImg9],
+    link: 'https://github.com/Sivlin-creater/flutter_todo_app',
+  },
+
+  {
+    id: 12,
+    images: [projectImg36, projectImg37, projectImg38, projectImg39, projectImg40, projectImg41, projectImg42, projectImg43, projectImg44, projectImg45],
+    title: 'Flower Shop E-Commerce Website',
+    description:
+      'A full-stack flower shop e-commerce website built with PHP, MySQL, and Bootstrap. The platform allows customers to browse products, manage their cart and wishlist, place orders, track purchases, and manage their profiles. It also includes an admin dashboard for managing products, orders, users, and customer messages, with Gmail SMTP integration for email notifications.',
+    skills: [skillsImg10, skillsImg16, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/Flower-Shop-With-Admin-Dashboard',
   },
 ];
 
