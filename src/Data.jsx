@@ -102,6 +102,43 @@ import projectImg32 from './assets/portfolio_group/image5.png'
 import projectImg33 from './assets/portfolio_group/image6.png'
 import projectImg34 from './assets/portfolio_group/image7.png'
 import projectImg35 from './assets/todo_flutter/todo_app.jpg'
+import projectImg36 from './assets/flower_shop/image1.png'
+import projectImg37 from './assets/flower_shop/image2.png'
+import projectImg38 from './assets/flower_shop/image3.png'
+import projectImg39 from './assets/flower_shop/image4.png'
+import projectImg40 from './assets/flower_shop/image5.png'
+import projectImg41 from './assets/flower_shop/image6.png'
+import projectImg42 from './assets/flower_shop/image7.png'
+import projectImg43 from './assets/flower_shop/image8.png'
+import projectImg44 from './assets/flower_shop/image9.png'
+import projectImg45 from './assets/flower_shop/image10.png'
+
+import photoshopImg1 from './assets/photoshop/image1.jpg'
+import photoshopImg2 from './assets/photoshop/image3.jpg'
+import photoshopImg3 from './assets/photoshop/image4.jpg'
+import photoshopImg4 from './assets/photoshop/image5.jpg'
+import photoshopImg5 from './assets/photoshop/image7.jpg'
+import photoshopImg6 from './assets/photoshop/image10.jpg'
+import photoshopImg7 from './assets/photoshop/image11.jpg'
+import photoshopImg8 from './assets/photoshop/image12.jpg'
+import photoshopImg9 from './assets/photoshop/image13.jpg'
+import photoshopImg10 from './assets/photoshop/image14.jpg'
+import photoshopImg11 from './assets/photoshop/image15.jpg'
+import photoshopImg12 from './assets/photoshop/image16.jpg'
+import photoshopImg13 from './assets/photoshop/image17.jpg'
+import photoshopImg14 from './assets/photoshop/image18.jpg'
+import photoshopImg15 from './assets/photoshop/image19.jpg'
+import photoshopImg15p from './assets/photoshop/image19p.jpg'
+import photoshopImg16 from './assets/photoshop/image20.jpg'
+import photoshopImg17 from './assets/photoshop/image21.jpg'
+import photoshopImg18 from './assets/photoshop/image22.jpg'
+import photoshopImg19 from './assets/photoshop/image23.jpg'
+import photoshopImg20 from './assets/photoshop/image24.jpg'
+import photoshopImg21 from './assets/photoshop/image25.jpg'
+import photoshopImg22 from './assets/photoshop/image26.jpg'
+import photoshopImg23 from './assets/photoshop/image26p.jpg'
+import photoshopImg24 from './assets/photoshop/image27.jpg'
+import photoshopImg25 from './assets/photoshop/image28.jpg'
 
 
 export const links = [
@@ -848,12 +885,130 @@ export const portfolio = [
 
   {
     id: 12,
-    images: [projectImg36, projectImg37, projectImg38, projectImg39, projectImg40, projectImg41, projectImg42, projectImg43, projectImg44, projectImg45],
+    images: [projectImg37, projectImg36, projectImg38, projectImg39, projectImg40, projectImg41, projectImg42, projectImg43, projectImg44, projectImg45],
     title: 'Flower Shop E-Commerce Website',
     description:
       'A full-stack flower shop e-commerce website built with PHP, MySQL, and Bootstrap. The platform allows customers to browse products, manage their cart and wishlist, place orders, track purchases, and manage their profiles. It also includes an admin dashboard for managing products, orders, users, and customer messages, with Gmail SMTP integration for email notifications.',
     skills: [skillsImg10, skillsImg16, skillsImg5],
     link: 'https://github.com/Sivlin-creater/Flower-Shop-With-Admin-Dashboard',
   },
+
+  // ========== PHOTOSHOP PROJECTS ==========
+  {
+    id: 20,
+    images: [photoshopImg1],
+    title: 'Photoshop Photo Editing',
+    description: 'practice photo editing to make the face smooth',
+  },
+  {
+    id: 21,
+    images: [photoshopImg3],
+    title: 'Photoshop Poster',
+    description: 'designing poster for the school',
+  },
+  {
+    id: 22,
+    images: [photoshopImg4],
+    title: 'Backdrop Design',
+    description: 'designing backdrop for the government meeting',
+  },
+  {
+    id: 23,
+    images: [photoshopImg5],
+    title: 'Employee Card Design',
+    description: 'practicing designing the id card with own ideas',
+  },
+  {
+    id: 24,
+    images: [photoshopImg7],
+    title: 'Advertising School Poster',
+    description: 'designing poster contains many texts with own ideas',
+  },
+  {
+    id: 25,
+    images: [photoshopImg10],
+    title: 'Advertisement-like Poster',
+    description: 'practice designing the drinks',
+  },
+  {
+    id: 26,
+    images: [photoshopImg11],
+    title: 'F-flag Banner',
+    description: 'designing own style of the f-flag',
+  },
+  {
+    id: 27,
+    images: [photoshopImg12],
+    title: 'Pizza Poster Chinese New Year',
+    description: 'designing poster for the Chinese New Year',
+  },
+  {
+    id: 28,
+    images: [photoshopImg13],
+    title: 'Watch Poster',
+    description: 'designing discount poster of the watch with own idea',
+  },
+  {
+    id: 29,
+    images: [photoshopImg14],
+    title: 'Khmer New Year Poster',
+    description: 'designing Khmer New Year poster with own idea',
+  },
+  {
+    id: 30,
+    images: [photoshopImg15, photoshopImg15p],
+    title: 'Business Card',
+    description: 'Designing business card for personal use with own idea',
+  },
+  {
+    id: 31,
+    images: [photoshopImg17, photoshopImg16],
+    title: 'pBi-fold poster',
+    description: 'practicing bi-fold poster and printing out',
+  },
+  {
+    id: 32,
+    images: [photoshopImg18],
+    title: 'Edting Mountain Photo',
+    description: 'practicing to make the photo looks good',
+  },
+  {
+    id: 33,
+    images: [photoshopImg19],
+    title: 'Wood Text',
+    description: 'practicing text to make it wood texture',
+  },
+  {
+    id: 34,
+    images: [photoshopImg20],
+    title: 'Labor Day Poster',
+    description: 'practicing poster for the Happy Labor Day',
+  },
+  {
+    id: 35,
+    images: [photoshopImg21],
+    title: 'Photoshop Photo Practice',
+    description: 'practicing input the photos',
+  },
+  {
+    id: 36,
+    images: [photoshopImg23, photoshopImg22],
+    title: 'Business Card Design',
+    description: 'practising designing business card',
+  },
+  {
+    id: 37,
+    images: [photoshopImg24],
+    title: 'Retouch Face',
+    description: 'retouch face to make it smooth',
+  },
+
+  {
+    id: 38,
+    images: [photoshopImg25],
+    title: 'Drinks Poster',
+    description: 'design own poster of the drinks for one shop',
+  },
+  
 ];
 
