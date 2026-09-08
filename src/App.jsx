@@ -4,7 +4,7 @@ import AppLayout from './components/AppLayout'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
-import Portfolio from './pages/portfolio/Portfolio'
+import Projects from './pages/projects/Projects'
 
 const App = () => {
     const router = createBrowserRouter([
@@ -23,8 +23,8 @@ const App = () => {
           },
 
           {
-            path: '/portfolio',
-            element: <Portfolio />
+            path: '/projects',
+            element: <Projects />
           },
 
           {

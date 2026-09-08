@@ -58,6 +58,8 @@ import certImg11 from './assets/shevic.jpg';
 import certImg12 from './assets/thai_cam.jpg';
 import certImg13 from './assets/upskill_analytic.png';
 import certImg14 from './assets/training_chinese.jpg';
+import certImg15 from './assets/access_submit.jpg';
+import certImg16 from './assets/ke_certificate.jpg';
 
 import projectImg1 from './assets/coffee/image1.png';
 import projectImg2 from './assets/coffee/image2.png';
@@ -112,6 +114,10 @@ import projectImg42 from './assets/flower_shop/image7.png'
 import projectImg43 from './assets/flower_shop/image8.png'
 import projectImg44 from './assets/flower_shop/image9.png'
 import projectImg45 from './assets/flower_shop/image10.png'
+import projectImg46 from './assets/computational_neural/image1.png'
+import projectImg47 from './assets/computational_neural/image2.png'
+import projectImg48 from './assets/calculator_py/image1.png'
+import projectImg49 from './assets/expense_tracker_py/image1.png'
 
 import photoshopImg1 from './assets/photoshop/image1.jpg'
 import photoshopImg2 from './assets/photoshop/image3.jpg'
@@ -155,9 +161,9 @@ export const links = [
   },
 
   {
-    name: 'Portfolio',
+    name: 'Projects',
     icon: <FaFolderOpen className='nav-icon' />,
-    path: '/portfolio',
+    path: '/projects',
   },
 
   {
@@ -603,12 +609,28 @@ export const certifications = [
     description: 'Training Chinese-Language Educator program',
   },
   {
-    id: 20,
+    id: 14,
     title: 'UP:SKILL 2.0 Crash Course on Data Analytics',
     issuer: 'GIZ Cambodia and DICHI Academy',
     year: '2025',
     image: certImg13,
     description: 'Excel for Business Foundation, Execution Dashboard Creation, Customer Journey Analysis, Marketing Intelligence',
+  },
+  {
+    id: 15,
+    title: 'UniPreneur 2026',
+    issuer: 'USEA',
+    year: '2026',
+    image: certImg16,
+    description: 'A competition about business and entrepreneurship for university students.',
+  },
+  {
+    id: 16,
+    title: 'Access Summit 2026',
+    issuer: 'The Asia Foundation',
+    year: '2026',
+    image: certImg15,
+    description: 'Support the events that has students from Cambodia, Laos, and Vietname in Siem Reap Province.',
   },
 ]
 
@@ -624,15 +646,6 @@ export const resume = [
   },
 
   {
-    id: 2,
-    category: 'experience',
-    icon: <RiBriefcase4Fill />,
-    year: 'Aug - Oct 2024',
-    title: 'Computer Teacher <span> SITS Institute </span>',
-    desc: 'Working as an intern computer teacher at SITS Institute focusing on Microsoft Words, Microsoft Excel, PowerPoint, Photoshop, Adobe Illustrator.',
-  },
-
-  {
     id: 3,
     category: 'experience',
     icon: <RiBriefcase4Fill />,
@@ -642,20 +655,11 @@ export const resume = [
   },
 
   {
-    id: 4,
-    category: 'education',
-    icon: <RiGraduationCapFill />,
-    year: '2026',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore.',
-  },
-
-  {
     id: 5,
     category: 'education',
     icon: <RiGraduationCapFill />,
     year: '2023 - Now',
-    title: 'Bachelor Degree Degree <span> USEA </span>',
+    title: 'Bachelor Degree <span> USEA </span>',
     desc: 'Science degree majoring in Information Technology at University of South-East Asia.',
   },
 
@@ -672,13 +676,40 @@ export const resume = [
     id: 7,
     category: 'training',
     icon: <RiGraduationCapFill />,
+    year: 'May - Jul 2026',
+    title: 'UniPreneur 2026 <span> USEA </span>',
+    desc: 'A competition about business and entrepreneurship for university students.',
+  },
+
+  {
+    id: 8,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
+    year: '17 - 21 Jun 2026',
+    title: 'Access Summit 2026 <span> The Asia Foundation </span>',
+    desc: 'Support the events that has students from Cambodia, Laos, and Vietname in Siem Reap Province.',
+  },
+
+  {
+    id: 9,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
+    year: '25-Nov-2025',
+    title: 'Career and Job Readiness in the Age of AI <span> DDD </span>',
+    desc: 'Participated in a half day workshop to know about the jobs nowadays.',
+  },
+
+  {
+    id: 10,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
     year: '25-Oct-2025',
     title: 'UP:SKILL 2.0 Crash Course on Data Analytics <span> DICHI Academy </span>',
     desc: 'An online class where the academy based in Phnom Penh.',
   },
 
   {
-    id: 8,
+    id: 11,
     category: 'training',
     icon: <RiGraduationCapFill />,
     year: '08 - 22-Oct-2025',
@@ -687,16 +718,7 @@ export const resume = [
   },
 
   {
-    id: 9,
-    category: 'training',
-    icon: <RiGraduationCapFill />,
-    year: 'Jan 2025',
-    title: '名师讲堂 <span> 中国华文教育基金会',
-    desc: 'Chinese language training program for Teachers',
-  },
-
-  {
-    id: 10,
+    id: 12,
     category: 'training',
     icon: <RiGraduationCapFill />,
     year: '12 - 19-Jan-2025',
@@ -705,34 +727,43 @@ export const resume = [
   },
 
   {
-    id: 11,
-    category: 'training',
-    icon: <RiGraduationCapFill />,
-    year: 'Nov 2024',
-    title: 'Interpreter <span> ACE School </span>',
-    desc: 'Volunteering as an interpreter for the 10th Global Alumni Convention in Siem Reap Province.',
-  },
-
-  {
-    id: 12,
-    category: 'training',
-    icon: <RiGraduationCapFill />,
-    year: 'Oct 2024',
-    title: 'Unlocking the Future: ICP Blockchain for the Innovative Minds Program <span> USEA </span>',
-    desc: 'Workshop presented by the experts from Singapore.',
-  },
-
-  {
     id: 13,
     category: 'training',
     icon: <RiGraduationCapFill />,
-    year: 'Jul - Aug 2024',
-    title: 'Pythong Course <span> Above & Beyond School, Phnom Penh </span>',
-    desc: '3-weeks online program introduction of Python.',
+    year: 'Dec 2024',
+    title: '名师讲堂 <span> 中国华文教育基金会',
+    desc: 'Chinese language training program for Teachers',
   },
 
   {
     id: 14,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
+    year: 'Nov 2024',
+    title: 'The 10th Global Alumni Convention <span> ACE School </span>',
+    desc: 'Volunteering as an interpreter for the 10th Global Alumni Convention in Siem Reap Province.',
+  },
+
+  {
+    id: 15,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
+    year: 'Oct 2024',
+    title: 'Unlocking the Future: ICP Blockchain for the Innovative Minds Program <span> USEA </span>',
+    desc: 'Workshop presented by the experts from Singapore about the blockchain technology of one company.',
+  },
+
+  {
+    id: 16,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
+    year: 'Jul - Aug 2024',
+    title: 'Python Course <span> Above & Beyond School, Phnom Penh </span>',
+    desc: '3-weeks online program introduction of Python.',
+  },
+
+  {
+    id: 17,
     category: 'training',
     icon: <RiGraduationCapFill />,
     year: 'Apr 2024',
@@ -741,7 +772,7 @@ export const resume = [
   },
 
   {
-    id: 15,
+    id: 18,
     category: 'training',
     icon: <RiGraduationCapFill />,
     year: 'Nov 2023',
@@ -750,7 +781,7 @@ export const resume = [
   },
 
   {
-    id: 16,
+    id: 19,
     category: 'training',
     icon: <RiGraduationCapFill />,
     year: 'Sep 2023',
@@ -759,18 +790,36 @@ export const resume = [
   },
 
   {
-    id: 17,
+    id: 20,
     category: 'training',
     icon: <RiGraduationCapFill />,
     year: 'Aug 2023',
     title: 'Computer Class <span> USEA </span>',
     desc: 'Study computer for administration course at University of South-East Asia.',
   },
+
+  {
+    id: 21,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
+    year: 'Aug 2022',
+    title: 'IYF Korea Camp <span> IYF Cambodia</span>',
+    desc: 'Participating in a 2 days Korea Camp to learn more about Korean Culture.',
+  },
+
+  {
+    id: 22,
+    category: 'training',
+    icon: <RiGraduationCapFill />,
+    year: 'Aug 2021',
+    title: 'Chinese Training <span> Confusion Institute Headquarters </span>',
+    desc: 'Participating in a 2 weeks Chinese training program to learn more about Chinese Culture.',
+  },
 ];
 
 
-// // ========== PORTFOLIO ==========
-export const portfolio = [
+// // ========== PROJECTS ==========
+export const projects = [
   {
     id: 1,
     images: [projectImg1, projectImg2, projectImg3],
@@ -891,6 +940,35 @@ export const portfolio = [
       'A full-stack flower shop e-commerce website built with PHP, MySQL, and Bootstrap. The platform allows customers to browse products, manage their cart and wishlist, place orders, track purchases, and manage their profiles. It also includes an admin dashboard for managing products, orders, users, and customer messages, with Gmail SMTP integration for email notifications.',
     skills: [skillsImg10, skillsImg16, skillsImg5],
     link: 'https://github.com/Sivlin-creater/Flower-Shop-With-Admin-Dashboard',
+  },
+
+  {
+    id: 13,
+    images: [projectImg46, projectImg47],
+    title: 'Computational Neuro Science Toolkit',
+    description:
+      'Modular Python package implementing LIF neuronal dynamics, spectral GNN pipelines on citation networks, and empirical concentration bound verification.',
+    skills: [skillsImg10, skillsImg16, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/computational-neuro-toolkit',
+  },
+
+  {
+    id: 14,
+    images: [projectImg48],
+    title: 'Calculator App',
+    description:
+      'A simple calculator application built using Python and Tkinter. The app provides basic arithmetic operations with a user-friendly interface.',
+    skills: [skillsImg10, skillsImg16, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/calculator_py_practice',
+  },
+  
+  {
+    id: 15,
+    images: [projectImg49],
+    title: 'Expense Tracker Python',
+    description: 'Expense Tracker is a lightweight Python command-line tool designed to help users track personal finances efficiently without third-party dependencies.',
+    skills: [skillsImg10, skillsImg16, skillsImg5],
+    link: 'https://github.com/Sivlin-creater/Expense-tracker-python/tree/main',
   },
 
   // ========== PHOTOSHOP PROJECTS ==========

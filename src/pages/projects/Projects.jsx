@@ -1,27 +1,27 @@
 import { useState } from 'react'
-import { portfolio } from "../../Data"
-import './portfolio.css'
+import { projects } from "../../Data"
+import './projects.css'
 import { RiLink } from 'react-icons/ri'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 //rafce
-const Portfolio = () => {
+const Projects = () => {
   return (
-    <section className='portfolio section'>
+    <section className='projects section'>
       <h2 className='section-title'>
         My <span>Projects</span>
       </h2>
 
-      <div className='portfolio-container container grid'>
-        {portfolio.map((project) => (
-          <PortfolioCard key={project.id} project={project} />
+      <div className='projects-container container grid'>
+        {projects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </section>
   )
 }
 
-const PortfolioCard = ({ project }) => {
+const ProjectCard = ({ project }) => {
   const [current, setCurrent] = useState(0)
   const total = project.images.length
 
@@ -34,12 +34,12 @@ const PortfolioCard = ({ project }) => {
   }
 
   return (
-    <article className='portfolio-card'>
-      <div className='portfolio-img-wrapper'>
+    <article className='projects-card'>
+      <div className='projects-img-wrapper'>
         <img
           src={project.images[current]}
           alt={project.title}
-          className='portfolio-img'
+          className='projects-img'
         />
 
         {total > 1 && (
@@ -54,18 +54,18 @@ const PortfolioCard = ({ project }) => {
         )}
       </div>
 
-      <h3 className="portfolio-title">{project.title}</h3>
-      <p className="portfolio-description">{project.description}</p>
+      <h3 className="projects-title">{project.title}</h3>
+      <p className="projects-description">{project.description}</p>
 
       <br />
-      {/* <div className='portfolio-skills'>
+      {/* <div className='projects-skills'>
         {project.skills.map((skill, index) => (
-          <img src={skill} className='portfolio-skill' key={index} />
+          <img src={skill} className='projects-skill' key={index} />
         ))}
       </div> */}
 
       {project.link && (
-        <a href={project.link} className='portfolio-link' target="_blank">
+        <a href={project.link} className='projects-link' target="_blank">
           <RiLink className='link-icon' />
           Visit Project
         </a>
@@ -74,4 +74,4 @@ const PortfolioCard = ({ project }) => {
   )
 }
 
-export default Portfolio
+export default Projects

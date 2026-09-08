@@ -367,7 +367,7 @@ img {
   .resume-container,
   .stats,
   .skills-container,
-  .portfolio-container,
+  .projects-container,
   .contact-container {
     justify-content: center;
   }
@@ -399,7 +399,7 @@ img {
     row-gap: 2rem;
   }
 
-  .portfolio-container {
+  .projects-container {
     grid-template-columns: repeat(2, 350px);
     gap: 1.5rem;
   }
@@ -425,7 +425,7 @@ img {
     grid-template-columns: 480px;
   }
 
-  .portfolio-container {
+  .projects-container {
     grid-template-columns: 380px;
   }
 }
@@ -445,7 +445,7 @@ img {
   .resume-container,
   .contact-container,
   .skills-container,
-  .portfolio-container {
+  .projects-container {
     grid-template-columns: 1fr;
   }
 

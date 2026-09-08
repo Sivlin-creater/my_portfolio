@@ -1,11 +1,11 @@
-.portfolio-container {
+.projects-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     display: grid;
     align-items: stretch;
 }
 
-.portfolio-card {
+.projects-card {
     background-color: var(--container-color);
     padding: 1.5rem;
     border-radius: 1.5rem;
@@ -14,36 +14,36 @@
     height: 100%;
 }
 
-.portfolio-img-wrapper {
+.projects-img-wrapper {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
   display: block;
 }
 
-.portfolio-img {
+.projects-img {
     transition: transform 0.3s ease;
     height: auto;
     display: block;
 }
 
-.portfolio-card:hover .portfolio-img {
+.projects-card:hover .projects-img {
     transform: scale(1.2);
 }
 
-.portfolio-title {
+.projects-title {
     font-size: var(--large-font-size);
     margin-block: 1.5rem 0.5rem;
 }
 
-.portfolio-description {
+.projects-description {
     font-size: var(--small-font-size);
     line-height: 1.5;
     margin-top: 1rem;
     flex-grow: 1;
 }
 
-.portfolio-skills {
+.projects-skills {
     background-color: var(--body-color);
     padding-inline: 0.75rem;
     width: max-content;
@@ -55,11 +55,11 @@
     margin-block: 1.5rem;
 }
 
-.portfolio-skill {
+.projects-skill {
     width: 16px;
 }
 
-.portfolio-link {
+.projects-link {
     margin-top: auto;
     padding-top: 1.5rem;
     color: var(--first-color);
@@ -69,7 +69,7 @@
     transition: color 0.3s ease;
 }
 
-.portfolio-link:hover {
+.projects-link:hover {
     color: var(--first-color);
 }
 
