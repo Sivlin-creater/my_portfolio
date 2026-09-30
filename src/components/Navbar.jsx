@@ -44,7 +44,7 @@ const Navbar = () => {
 
           <li className="nav-item">
             <button className='nav-link theme-toggle-btn' onClick={() =>setDark(!dark)}>
-              {dark ? <RiSunFill /> : <RiMoonFill />}
+              {dark ? <RiSunFill className='nav-icon' /> : <RiMoonFill className='nav-icon' />}
               <h3 className="nav-name">Theme</h3>
             </button>
           </li>
